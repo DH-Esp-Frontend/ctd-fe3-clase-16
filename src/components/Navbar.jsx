@@ -2,9 +2,9 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>
+    <nav>
         {/* Aqui deberan agregar los Links */}
-    </div>
+    </nav>
   )
 }
 

@@ -10,7 +10,7 @@ const Beer = () => {
         //Deberas completar este fetch con el parametro correspondiente
         const res = await fetch(`https://api.punkapi.com/v2/beers/${}`)
         const data = await res.json()
-        setBeer(data)
+        setBeer(data[0])
     }
 
     useEffect(()=>{
